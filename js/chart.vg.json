@@ -62,12 +62,15 @@
       "x": {
         "field": "EQ_MAGNITUDE",
         "type": "quantitative",
-        "title": "Earthquake magnitude"
+        "title": "Earthquake magnitude",
+        "axis": {"tickCount": 6},
+        "scale": {"domain": [4, 10]}
       },
       "y": {
         "field": "EQ_DEPTH",
         "type": "quantitative",
-        "title": "Earthquake depth"
+        "title": "Earthquake depth",
+        "axis": {"tickCount": 6},
       }
     },
     "layer": [
