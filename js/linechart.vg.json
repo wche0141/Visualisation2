@@ -1,0 +1,15 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Tsunami during 20th century",
+    "data": {
+      "url": "https://raw.githubusercontent.com/wche0141/Visualisation2/main/data/tsunami_Clear_dataset.csv"
+    },
+    "mark": "line",
+    "transform": [
+      {"filter": "datum.YEAR > 1900"}
+    ],
+    "encoding": {
+      "x": {"field": "YEAR"},
+      "y": {"aggregate": "count", "field": "YEAR","title":"Recorded Tsunami"}
+    }
+  }
