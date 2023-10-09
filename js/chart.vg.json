@@ -16,10 +16,8 @@
             "Alaska (including Aleutian Islands)",
             "Black Sea and Caspian Sea",
             "Caribbean Sea",
-            "Central Africa",
             "China, North and South Korea, Philippines, Taiwan",
             "E Coast Australia, New Zealand, South Pacific Is.",
-            "East Coast USA and Canada, St Pierre and Miquelon",
             "Hawaii, Johnston Atoll, Midway I",
             "Indian Ocean (including west coast of Australia)",
             "Indonesia (Pacific Ocean) and Malaysia",
@@ -28,11 +26,6 @@
             "Mediterranean Sea",
             "New Caledonia, New Guinea, Solomon Is., Vanuatu",
             "Northeast Atlantic Ocean",
-            "Northwest Atlantic Ocean",
-            "Red Sea and Persian Gulf",
-            "Southeast Atlantic Ocean",
-            "Southwest Atlantic Ocean",
-            "West Coast of Africa",
             "West Coast of North and Central America",
             "West Coast of South America"
           ],
@@ -41,10 +34,8 @@
             "Alaska (including Aleutian Islands)",
             "Black Sea and Caspian Sea",
             "Caribbean Sea",
-            "Central Africa",
             "China, North and South Korea, Philippines, Taiwan",
             "E Coast Australia, New Zealand, South Pacific Is.",
-            "East Coast USA and Canada, St Pierre and Miquelon",
             "Hawaii, Johnston Atoll, Midway I",
             "Indian Ocean (including west coast of Australia)",
             "Indonesia (Pacific Ocean) and Malaysia",
@@ -53,11 +44,6 @@
             "Mediterranean Sea",
             "New Caledonia, New Guinea, Solomon Is., Vanuatu",
             "Northeast Atlantic Ocean",
-            "Northwest Atlantic Ocean",
-            "Red Sea and Persian Gulf",
-            "Southeast Atlantic Ocean",
-            "Southwest Atlantic Ocean",
-            "West Coast of Africa",
             "West Coast of North and Central America",
             "West Coast of South America"
           ],
@@ -93,8 +79,8 @@
             "type": "quantitative",
             "scale": {
               "type": "threshold",
-              "domain": [-5, 0, 5, 10],
-              "range": [10, 50, 150,200]
+              "domain": [3,6,9],
+              "range": [75,130,200]
             },
             "legend": {"format": ".1s"}
           },
