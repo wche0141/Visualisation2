@@ -4,7 +4,7 @@
     "height": 400,
     "title": "Tsunamis affect on earthquake",
     "data": {
-      "url": "https://raw.githubusercontent.com/wche0141/3179/main/data/tsunami_dataset.csv"
+      "url": "https://raw.githubusercontent.com/wche0141/Visualisation2/main/data/tsunami_Clear_dataset.csv"
     },
     "params": [
       {
