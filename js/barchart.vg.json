@@ -1,0 +1,53 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Each region's tsunami",
+    "data": {"url": "https://raw.githubusercontent.com/wche0141/Visualisation2/main/data/tsunami_Clear_dataset.csv"},
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "REGION"},
+      "y": {"aggregate": "count", "field": "REGION"},
+      "color": {
+        "field": "REGION",
+        "type": "nominal",
+        "scale":{
+          "domain": [
+            "Alaska (including Aleutian Islands)",
+            "Black Sea and Caspian Sea",
+            "Caribbean Sea",
+            "China, North and South Korea, Philippines, Taiwan",
+            "E Coast Australia, New Zealand, South Pacific Is.",
+            "Hawaii, Johnston Atoll, Midway I",
+            "Indian Ocean (including west coast of Australia)",
+            "Indonesia (Pacific Ocean) and Malaysia",
+            "Japan",
+            "Kamchatka and Kuril Islands",
+            "Mediterranean Sea",
+            "New Caledonia, New Guinea, Solomon Is., Vanuatu",
+            "Northeast Atlantic Ocean",
+            "West Coast of North and Central America",
+            "West Coast of South America",
+            "Red Sea and Peersian Gulf"
+          ],
+          "range":[
+            "#e41a1c",
+            "#984ea3",
+            "#ff7f00",
+            "#a6cee3",
+            "#377eb8",
+            "#a65628",
+            "#8c96c6",
+            "#bfd3e6",
+            "#6e016b",
+            "#ffffe5",
+            "#c7e9c0",
+            "#005a32",
+            "#fa9fb5",
+            "#8c2d04",
+            "#91003f",
+            "#bdbdbd"
+          ]
+        }
+      }
+    }
+  }
+   
