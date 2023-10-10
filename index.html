@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsunami</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+</head>
+<body>
+    <header>
+        <h1>Tsunami's Effect on Earthquake</h1>
+        <p>introduction of tsunami</p>
+    </header>
+    <section class="visualization">
+        <div class="visualization-content">
+            <h2>World's Tsunami distribution</h2>
+            <div id="map"></div>
+            <p>Explanation for the world map visualization.</p>
+        </div>
+    </section>
+    <section class="visualization">
+        <div class="visualization-content">
+            <h2>Tsunami Occurrences Over Years</h2>
+            <div id="line"></div>
+            <p>Explanation for the line chart visualization goes here.</p>
+        </div>
+    </section>
+    <section class="visualization">
+        <div class="visualization-content">
+            <h2>Regional Tsunami Counts</h2>
+            <div class="chart-container">
+                <div id="bar"></div>
+                <div class="explanation">
+                    <p>Explanation for the bar chart visualization goes here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="visualization">
+        <div class="visualization-content">
+            <h2>Tsunami intensity and earthquake magnitude and depth</h2>
+            <div class="chart-container">
+                <div class="explanation">
+                    <p>Explanation for the final bubble chart visualization goes here.</p>
+                </div>
+                <div id="bubble"></div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+       var spec1="js/map.vg.json";
+       var spec2="js/linechart.vg.json";
+       var spec3="js/barchart.vg.json";
+       var spec4="js/bubblechart.vg.json"
+       vegaEmbed("#map",spec1)
+       .then(result=>console.log(result))
+       .catch(console.warn)
+       vegaEmbed("#line",spec2)
+       .then(result=>console.log(result))
+       .catch(console.warn)
+       vegaEmbed("#bar",spec3)
+       .then(result=>console.log(result))
+       .catch(console.warn)
+       vegaEmbed("#bubble",spec4)
+       .then(result=>console.log(result))
+       .catch(console.warn)
+    </script>
+</body>
+</html>
