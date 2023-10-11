@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width":900,
     "title": "Tsunami during 20th century",
     "data": {
       "url": "https://raw.githubusercontent.com/wche0141/Visualisation2/main/data/tsunami_Clear_dataset.csv"
