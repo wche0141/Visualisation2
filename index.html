@@ -69,16 +69,16 @@
        var spec2="js/linechart.vg.json";
        var spec3="js/barchart.vg.json";
        var spec4="js/bubblechart.vg.json"
-       vegaEmbed("#map",spec1)
+       vegaEmbed("#map",spec1,{ "actions": false })
        .then(result=>console.log(result))
        .catch(console.warn)
-       vegaEmbed("#line",spec2)
+       vegaEmbed("#line",spec2,{ "actions": false })
        .then(result=>console.log(result))
        .catch(console.warn)
-       vegaEmbed("#bar",spec3)
+       vegaEmbed("#bar",spec3,{ "actions": false })
        .then(result=>console.log(result))
        .catch(console.warn)
-       vegaEmbed("#bubble",spec4)
+       vegaEmbed("#bubble",spec4,{ "actions": false })
        .then(result=>console.log(result))
        .catch(console.warn)
     </script>
