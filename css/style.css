@@ -12,10 +12,11 @@ header {
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 45px;
     color: #007acc;
     margin: 0;
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
 }
 
 header p {
@@ -37,10 +38,14 @@ header p {
 .title-left h2 {
     font-size: 30px;
     color: #007acc;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline;
 }
 
 .visualization h2 {
     font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline;
 }
 
 .visualization-content {
@@ -49,7 +54,7 @@ header p {
 }
 
 .visualization-content p {
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .chart-container {
@@ -63,12 +68,15 @@ header p {
     padding: 20px;
 }
 
+.explanation p {
+    font-size: 25px;
+}
 .chart-container > div {
     flex: 1;   
 }
 
 .highlight {
-    font-size: 20px; 
+    font-size: 22px; 
     font-weight: bold;
 }
 
